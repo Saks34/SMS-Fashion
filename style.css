@@ -57,6 +57,10 @@ html{
 #menu-bar{
     display: none;
 }
+
+.search-box.active{
+left: 40%;
+}
 .search-box{
     position: absolute;
     top: 110%;
