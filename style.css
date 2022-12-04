@@ -75,6 +75,7 @@ html{
     top: 110%;
     width: 40rem;
     right: 2rem;
+    left: 100%;
 }
 .shopping-box{
     position: relative;
@@ -83,11 +84,26 @@ html{
 .shopping-box img{
     width: 200px;
 }
+
 .size{
     width: 28px;
     display: flex;
 }
-
+.fa-times{
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    trasform: traslateY(-50%);
+    font-size: 2rem;
+}
+.shop-content{
+    font-size: 1.7rem;
+    padding: .5rem;
+}
+.shop-content span{
+    margin: .5rem;
+    font-size: 1.7rem;
+}
 
     /* @media (max-width:768px) {
         html{
